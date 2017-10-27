@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Do you know Batman? </title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+
+              <h1> How Well Do You Know Batman? </h1>
+
+          <p> Batman is a fictional superhero in the American comic books published by DC Comics. He first appeared in the Detective Comics #27 in 1939. Batman will be making his next onscreen appearance in the upcoming Justice Leage movie in theatres November 17, 2017. For more information on Batman <a href="https://en.wikipedia.org/wiki/Batman#Adversaries" target="_blank">click here</a>. And before you go see the movie, test out your knowledge of Batman below!
+          </p>
+
+        <form>
+
+          <fieldset class="form-group">
+              <legend> What is Batmans secret identity? </legend>
+              <label for="batmansname"> Batmans Name</label>
+              <input class="form-control" name="batmansname" type="text" id="batmansname" placeholder="Type Name">
+            </fieldset> <!-- closing text field 1 -->
+
+            <fieldset class="form-group">
+              <legend> What is Batmans butlers name? </legend>
+              <label for="butlersname"> Butlers Name</label>
+              <input class="form-control" name="butlersname" type="text" id="butlersname" placeholder="Type Name">
+            </fieldset> <!-- closing text field 2 -->
+
+                <fieldset class="form-group">
+                  <legend> What is the name of Batmans son? </legend>
+
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio"  class="form-check-input" name="sonsname" value="Damian Wayne"> Damian Wayne
+                     </label>
+                  </div>
+
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="sonsname" value="Tim Wayne"> Tim Wayne
+                     </label>
+                  </div>
+
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="sonsname" value="Dick Wayne"> Dick Wayne
+                     </label>
+                  </div>
+
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="sonsname" value="Bruce Wayne Junior"> Bruce Wayne Junior
+                     </label>
+                  </div>
+
+                </fieldset> <!-- closing radio button -->
+
+                <fieldset class="form-group">
+                  <legend> Which of the following are Bat Technology? </legend>
+
+                  <div>
+                    <label class="form-check-label">
+                      <input type="checkbox" name="battech" value="Bat Mobile"> Bat Mobile
+                     </label>
+                   </div>
+
+                   <div>
+                     <label class="form-check-label">
+                       <input type="checkbox" name="battech" value="Bat Cave"> Bat Cave
+                      </label>
+                    </div>
+
+                    <div>
+                      <label class="form-check-label">
+                        <input type="checkbox" name="battech" value="Bat Speaker"> Bat Speaker
+                       </label>
+                     </div>
+
+                     <div>
+                       <label class="form-check-label">
+                         <input type="checkbox" name="battech" value="Bat Signal"> Bat Signal
+                        </label>
+                      </div>
+
+                </fieldset> <!-- closing checkbox -->
+
+                  <fieldset class="form-group">
+                    <legend> Who is Batmans biggest adversary? </legend>
+
+                      <select class="form-control" name="BatmansAdversary" id="batmansadversary">
+                        <option value="0"> Select One </option>
+                        <option value="peng">Penguin</option>
+                        <option value="2">Two-Face</option>
+                        <option value="rag">Ra's al Ghul</option>
+                        <option value="jk">Joker</option>
+                        <option value="hq">Harley Quinn</option>
+                        <option value="bn">Bane</option>
+                      </select>
+
+                    </fieldset> <!-- closing drop down -->
+
+                <fieldset class="form-group">
+                    <legend>Why is or isn't Batman your favorite superhero?</legend>
+
+                    <textarea class="form-control" name="WhyLikeBatman" id="whylikebatman" rows="3"></textarea>
+
+                </fieldset> <!-- closing text area -->
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary" value="submit"> Submit </button>
+              <button type="reset" class="btn btn-secondary" value="start over"> Reset </button>
+            </div>
+
+                </form>
+
+            </div> <!-- closing column div -->
+        </div> <!-- closing row div -->
+    </div> <!-- closing container div -->
+
+</body>
+</html>
